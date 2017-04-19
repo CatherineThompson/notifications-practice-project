@@ -22,6 +22,8 @@ export default class MyComponent extends Component {
   render () {
     return (
       <View style={styles.container}>
+        <Text style={styles.textStyle}>Push button, then wait 5 seconds for notification alert.</Text>
+        <Text style={styles.textStyle}>To see native alert, push button, then exit app within 5 seconds.</Text>
         <Button title='Send Notification' onPress={this._sendNotification} />
       </View>
     )
@@ -73,5 +75,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center'
+  },
+  textStyle: {
+    textAlign: 'center',
+    color: 'grey',
+    marginBottom: 8,
+    marginHorizontal: 16
   }
 })
