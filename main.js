@@ -22,7 +22,6 @@ class AppContainer extends React.Component {
         images: [require('./assets/images/expo-wordmark.png')],
         fonts: [
           FontAwesome.font,
-          { 'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf') },
         ],
       })
     } catch (e) {

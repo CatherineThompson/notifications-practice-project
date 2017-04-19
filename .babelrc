@@ -1,5 +1,5 @@
 {
-  "presets": ["react-native", "react-native-dotenv", "babel-preset-expo", "react-native-stage-0/decorator-support"],
+  "presets": ["react-native", "babel-preset-expo", "react-native-stage-0/decorator-support"],
   "env": {
     "developmet": {
       "plugins": ["transform-react-jsx-source", "transform-flow-strip-types"]
