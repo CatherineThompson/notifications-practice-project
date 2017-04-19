@@ -6,12 +6,12 @@ import {
 } from 'react-native'
 
 export default class MyComponent extends Component {
-  render() {
+  render () {
     return (
       <View style={styles.container}>
         <Text>I'm the MyComponent component</Text>
       </View>
-    );
+    )
   }
 }
 
